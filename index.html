@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie quiz</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div id="start-page" class="h-screen bg-slate-50 flex flex-col justify-center items-center gap-4 px-10">
+    <h1 class="font-bold text-2xl">Movie quiz</h1>
+    <h2 class="text-xl text-center">Test your cinema IQ with questions about everything from Old Hollywood to today's
+        blockbusters and beyond.</h2>
+    <button id="start-button" type="submit" class="bg-slate-300 px-4 py-2">Start quiz</button>
+</div>
+
+<main class="overflow-hidden">
+
+</main>
+
+
+<!--<div id="quiz-questions container" class=" h-screen bg-slate-50 flex flex-col justify-center items-center gap-4 px-10">-->
+<!--    <h2>Where were The Lord of the Rings movies filmed?</h2>-->
+<!--    <div class="answers ">-->
+<!--        <div>-->
+<!--            <input type="radio" name="" id="Australia">-->
+<!--            <label for="">Australia</label>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <input type="radio" name="" id="Iceland">-->
+<!--            <label for="">Iceland</label>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <input type="radio" name="New Zealand" id="">-->
+<!--            <label for="">New Zealand</label>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <input type="radio" name="" id="Scotland">-->
+<!--            <label for="">Scotland</label>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div id="finish-page" class="h-screen bg-slate-50 flex flex-col justify-center items-center gap-4 px-10 q-and-a" data-id="6">
+    <button id="finish-button" type="submit" class="bg-slate-300 px-4 py-2 scroll-btn">Finish</button>
+</div>
+
+<div id="final-page" class="h-screen bg-slate-50 flex flex-col justify-center items-center gap-4 px-10">
+    <div>You scored <span id="result"></span> out of <span id="total-questions"></span></div>
+    <button id="start-over-button" type="submit" class="bg-slate-300 px-4 py-2">Start over</button>
+</div>
+</body>
+</html>
